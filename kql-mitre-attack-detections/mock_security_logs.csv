@@ -1,0 +1,101 @@
+Timestamp,User,EventType,CommandLine,Message
+2025-06-15 10:37,charlie,LoginFailure,,Account locked
+2025-06-15 23:43,bob,FileAccess,,Accessed confidential file
+2025-06-15 16:57,admin,ProcessCreate,cmd.exe,Executed script
+2025-06-15 21:45,charlie,LoginFailure,,Failed login attempt
+2025-06-15 10:58,bob,PrivilegeEscalation,,Elevated to SYSTEM
+2025-06-15 16:02,admin,LoginFailure,,Invalid credentials
+2025-06-15 15:57,admin,PrivilegeEscalation,,User added to admin group
+2025-06-15 17:33,alice,PrivilegeEscalation,,Elevated to SYSTEM
+2025-06-15 23:18,alice,FileAccess,,Attempted to read sensitive.txt
+2025-06-16 0:35,charlie,ProcessCreate,net user,Executed script
+2025-06-15 12:52,charlie,ProcessCreate,net localgroup administrators,Launched powershell.exe
+2025-06-15 14:33,charlie,LoginFailure,,Account locked
+2025-06-15 11:24,charlie,ProcessCreate,net localgroup administrators,Started cmd.exe
+2025-06-15 22:39,bob,ProcessCreate,net user,Started cmd.exe
+2025-06-15 15:33,admin,PrivilegeEscalation,,Elevated to SYSTEM
+2025-06-15 14:37,charlie,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 11:49,charlie,ProcessCreate,cmd.exe,Started cmd.exe
+2025-06-15 12:40,charlie,LoginFailure,,Failed login attempt
+2025-06-15 11:07,bob,PrivilegeEscalation,,User added to admin group
+2025-06-15 17:13,admin,LoginFailure,,Invalid credentials
+2025-06-15 12:46,charlie,ProcessCreate,net user,Executed script
+2025-06-15 10:39,alice,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 17:27,admin,PrivilegeEscalation,,Elevated to SYSTEM
+2025-06-15 21:41,charlie,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 10:51,admin,ProcessCreate,whoami,Started cmd.exe
+2025-06-15 11:06,charlie,FileAccess,,Accessed confidential file
+2025-06-15 8:44,admin,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 20:01,bob,ProcessCreate,powershell.exe,Executed script
+2025-06-15 8:41,admin,ProcessCreate,net localgroup administrators,Launched powershell.exe
+2025-06-15 8:52,bob,LoginFailure,,Account locked
+2025-06-15 19:09,bob,LoginFailure,,Invalid credentials
+2025-06-15 14:48,charlie,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 15:49,admin,LoginFailure,,Account locked
+2025-06-15 15:35,admin,ProcessCreate,powershell.exe,Launched powershell.exe
+2025-06-15 17:05,admin,LoginFailure,,Invalid credentials
+2025-06-15 15:03,alice,PrivilegeEscalation,,User added to admin group
+2025-06-15 21:08,bob,PrivilegeEscalation,,Elevated to SYSTEM
+2025-06-15 8:50,alice,LoginFailure,,Invalid credentials
+2025-06-15 10:01,charlie,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 18:49,charlie,ProcessCreate,cmd.exe,Launched powershell.exe
+2025-06-15 19:11,alice,PrivilegeEscalation,,User added to admin group
+2025-06-15 11:23,charlie,LoginFailure,,Invalid credentials
+2025-06-15 14:38,alice,ProcessCreate,net localgroup administrators,Launched powershell.exe
+2025-06-15 11:50,bob,PrivilegeEscalation,,User added to admin group
+2025-06-15 14:25,bob,ProcessCreate,whoami,Started cmd.exe
+2025-06-15 16:05,alice,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 19:15,charlie,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 11:26,charlie,FileAccess,,Accessed confidential file
+2025-06-15 15:30,admin,LoginFailure,,Invalid credentials
+2025-06-15 19:24,admin,PrivilegeEscalation,,Elevated to SYSTEM
+2025-06-15 8:59,admin,FileAccess,,Attempted to read sensitive.txt
+2025-06-16 0:25,bob,PrivilegeEscalation,,Elevated to SYSTEM
+2025-06-15 19:34,alice,LoginFailure,,Account locked
+2025-06-15 10:31,alice,PrivilegeEscalation,,Elevated to SYSTEM
+2025-06-15 13:42,charlie,ProcessCreate,whoami,Executed script
+2025-06-15 10:49,alice,ProcessCreate,cmd.exe,Executed script
+2025-06-15 23:12,bob,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 12:13,alice,FileAccess,,Accessed confidential file
+2025-06-16 0:07,bob,ProcessCreate,whoami,Started cmd.exe
+2025-06-15 16:17,charlie,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 21:40,admin,ProcessCreate,net localgroup administrators,Executed script
+2025-06-15 21:58,bob,LoginFailure,,Failed login attempt
+2025-06-15 21:14,admin,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 9:23,bob,ProcessCreate,net localgroup administrators,Started cmd.exe
+2025-06-15 14:59,charlie,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 10:39,admin,ProcessCreate,net localgroup administrators,Launched powershell.exe
+2025-06-15 22:03,charlie,LoginFailure,,Failed login attempt
+2025-06-15 13:45,bob,LoginFailure,,Failed login attempt
+2025-06-15 18:20,alice,LoginFailure,,Failed login attempt
+2025-06-15 19:47,bob,ProcessCreate,whoami,Launched powershell.exe
+2025-06-15 22:16,admin,FileAccess,,Accessed confidential file
+2025-06-15 10:38,admin,ProcessCreate,net localgroup administrators,Launched powershell.exe
+2025-06-15 20:32,admin,PrivilegeEscalation,,User added to admin group
+2025-06-15 12:22,charlie,ProcessCreate,net user,Started cmd.exe
+2025-06-15 16:42,alice,FileAccess,,Accessed confidential file
+2025-06-15 13:02,bob,PrivilegeEscalation,,User added to admin group
+2025-06-15 13:54,bob,FileAccess,,Attempted to read sensitive.txt
+2025-06-15 9:09,charlie,ProcessCreate,cmd.exe,Launched powershell.exe
+2025-06-15 23:23,bob,ProcessCreate,powershell.exe,Started cmd.exe
+2025-06-15 13:08,admin,LoginFailure,,Account locked
+2025-06-15 17:41,charlie,FileAccess,,Accessed confidential file
+2025-06-15 11:33,charlie,FileAccess,,Accessed confidential file
+2025-06-15 23:10,alice,LoginFailure,,Failed login attempt
+2025-06-15 17:11,alice,ProcessCreate,powershell.exe,Started cmd.exe
+2025-06-15 17:09,alice,LoginFailure,,Failed login attempt
+2025-06-15 12:56,admin,FileAccess,,Accessed confidential file
+2025-06-15 23:38,alice,ProcessCreate,net localgroup administrators,Launched powershell.exe
+2025-06-15 8:24,charlie,PrivilegeEscalation,,Elevated to SYSTEM
+2025-06-15 18:52,bob,PrivilegeEscalation,,Elevated to SYSTEM
+2025-06-15 16:47,charlie,LoginFailure,,Account locked
+2025-06-15 12:04,alice,LoginFailure,,Account locked
+2025-06-15 23:20,charlie,LoginFailure,,Invalid credentials
+2025-06-15 22:50,admin,LoginFailure,,Invalid credentials
+2025-06-15 8:12,charlie,PrivilegeEscalation,,User added to admin group
+2025-06-15 11:43,admin,PrivilegeEscalation,,Elevated to SYSTEM
+2025-06-15 21:10,bob,FileAccess,,Accessed confidential file
+2025-06-15 21:09,bob,FileAccess,,Accessed confidential file
+2025-06-15 8:39,alice,ProcessCreate,whoami,Started cmd.exe
+2025-06-15 22:01,charlie,ProcessCreate,cmd.exe,Launched powershell.exe
+2025-06-15 12:14,alice,ProcessCreate,net localgroup administrators,Launched powershell.exe
