@@ -1,0 +1,31 @@
+﻿// ====================
+// KQL Security Log Analysis
+// ====================
+
+//  1. Count of Events by EventType
+SecurityEvents
+| summarize Count = count() by EventType
+
+// 2. Timechart of Events by Status (per hour)
+SecurityEvents
+| summarize Count = count() by bin(Timestamp, 1h), Status
+| render timechart
+
+// 3. Barchart of Event Count by UserId
+SecurityEvents
+| summarize Count = count() by UserId
+| render barchart
+
+// 4. Piechart of Event Status Distribution
+SecurityEvents
+| summarize Count = count() by Status
+| render piechart
+
+//5. Average Duration by EventType
+SecurityEvents
+| summarize AvgDuration = avg(DurationMs) by EventType
+| render columnchart
+
+// 6. Top 5 Longest Events
+SecurityEvents
+| top 5 by DurationMs desc

@@ -1,0 +1,101 @@
+Timestamp,EventType,UserId,Status,DurationMs,Message
+2025-06-15 14:15,AccessRequest,user3,Success,891,Access granted
+2025-06-15 9:56,AccessRequest,user2,Success,861,Access granted
+2025-06-15 9:09,Logout,user1,Failure,479,User logged out
+2025-06-15 18:57,AccessRequest,admin,Failure,831,Access granted
+2025-06-15 14:46,AccessRequest,user1,Success,189,Access granted
+2025-06-15 15:25,Login,admin,Success,147,Invalid password
+2025-06-15 8:46,AccessRequest,user3,Failure,625,Access granted
+2025-06-15 9:47,Login,user1,Failure,513,User logged in
+2025-06-15 10:36,Logout,user1,Success,382,User logged out
+2025-06-15 19:31,Logout,user3,Success,656,User logged out
+2025-06-15 14:16,Logout,user2,Success,138,User logged out
+2025-06-15 10:46,Login,admin,Failure,805,Account locked
+2025-06-15 12:45,AccessRequest,user1,Success,343,Access granted
+2025-06-15 15:33,AccessRequest,user2,Failure,630,Access denied
+2025-06-15 9:20,FileUpload,user2,Failure,375,Upload failed
+2025-06-15 13:53,FileUpload,user1,Failure,998,File uploaded
+2025-06-15 12:13,Logout,user3,Success,543,User logged out
+2025-06-15 8:59,Logout,admin,Failure,598,User logged out
+2025-06-15 14:21,FileUpload,user1,Failure,480,File uploaded
+2025-06-15 8:35,AccessRequest,admin,Failure,736,Access granted
+2025-06-15 17:54,Logout,user2,Failure,360,User logged out
+2025-06-15 10:16,Login,user2,Failure,788,User logged in
+2025-06-15 12:48,FileUpload,user3,Failure,193,File uploaded
+2025-06-15 13:09,AccessRequest,user1,Failure,208,Access granted
+2025-06-15 10:00,Login,user2,Success,162,Account locked
+2025-06-15 15:47,AccessRequest,admin,Failure,783,Access granted
+2025-06-15 17:41,AccessRequest,user2,Success,559,Access denied
+2025-06-15 11:02,FileUpload,admin,Failure,968,Upload failed
+2025-06-15 9:14,AccessRequest,admin,Failure,135,Access granted
+2025-06-15 19:22,Logout,user1,Failure,308,User logged out
+2025-06-15 18:33,FileUpload,user1,Success,650,File uploaded
+2025-06-15 15:38,Login,user1,Failure,610,User logged in
+2025-06-15 8:30,AccessRequest,admin,Success,888,Access denied
+2025-06-15 8:48,AccessRequest,user1,Failure,337,Access denied
+2025-06-15 11:40,Login,admin,Failure,219,Invalid password
+2025-06-15 9:16,AccessRequest,user2,Success,324,Access granted
+2025-06-15 19:06,Login,user2,Failure,725,User logged in
+2025-06-15 17:50,FileUpload,admin,Success,837,Upload failed
+2025-06-15 14:17,Login,user3,Failure,624,Account locked
+2025-06-15 16:20,FileUpload,admin,Failure,873,Upload failed
+2025-06-15 11:49,FileUpload,user1,Success,745,Upload failed
+2025-06-15 13:45,FileUpload,user2,Failure,59,File uploaded
+2025-06-15 11:10,Logout,user1,Failure,783,User logged out
+2025-06-15 14:32,Login,user3,Failure,201,Invalid password
+2025-06-15 8:03,Logout,user3,Success,998,User logged out
+2025-06-15 8:50,Login,admin,Failure,697,Account locked
+2025-06-15 10:37,Login,user1,Failure,676,Invalid password
+2025-06-15 13:12,Logout,user3,Success,624,User logged out
+2025-06-15 15:32,FileUpload,user1,Success,578,Upload failed
+2025-06-15 8:50,FileUpload,user1,Success,374,File uploaded
+2025-06-15 12:08,Logout,user3,Failure,281,User logged out
+2025-06-15 11:29,Login,user2,Success,65,User logged in
+2025-06-15 12:35,Login,admin,Success,609,Invalid password
+2025-06-15 15:28,FileUpload,user2,Failure,609,File uploaded
+2025-06-15 11:16,Login,admin,Success,969,Invalid password
+2025-06-15 16:29,Logout,admin,Failure,329,User logged out
+2025-06-15 15:05,FileUpload,user3,Success,594,File uploaded
+2025-06-15 18:10,Logout,user2,Success,764,User logged out
+2025-06-15 14:13,FileUpload,user1,Failure,836,Upload failed
+2025-06-15 13:16,Login,user1,Success,243,Invalid password
+2025-06-15 12:40,FileUpload,user3,Success,611,Upload failed
+2025-06-15 11:39,FileUpload,admin,Failure,84,Upload failed
+2025-06-15 8:53,FileUpload,user3,Failure,875,Upload failed
+2025-06-15 16:57,AccessRequest,user3,Failure,303,Access granted
+2025-06-15 10:43,FileUpload,user2,Failure,701,File uploaded
+2025-06-15 10:24,FileUpload,user3,Success,406,Upload failed
+2025-06-15 15:36,FileUpload,admin,Failure,586,File uploaded
+2025-06-15 12:20,Logout,user3,Failure,394,User logged out
+2025-06-15 14:01,Login,user3,Success,177,Account locked
+2025-06-15 13:06,AccessRequest,user3,Success,291,Access granted
+2025-06-15 16:01,Login,user3,Success,259,Invalid password
+2025-06-15 10:58,Logout,admin,Success,486,User logged out
+2025-06-15 16:20,FileUpload,user3,Success,913,Upload failed
+2025-06-15 17:33,AccessRequest,user3,Success,452,Access granted
+2025-06-15 18:27,AccessRequest,user2,Success,916,Access granted
+2025-06-15 15:25,Login,user3,Success,500,Invalid password
+2025-06-15 8:37,Logout,user1,Failure,283,User logged out
+2025-06-15 10:28,AccessRequest,user1,Success,638,Access granted
+2025-06-15 10:36,Logout,admin,Success,281,User logged out
+2025-06-15 18:22,FileUpload,user2,Failure,449,File uploaded
+2025-06-15 14:25,Logout,admin,Failure,73,User logged out
+2025-06-15 18:57,Login,user2,Success,256,Invalid password
+2025-06-15 10:08,FileUpload,user2,Failure,815,Upload failed
+2025-06-15 18:16,Login,user1,Success,974,Invalid password
+2025-06-15 14:05,Login,user2,Failure,271,Invalid password
+2025-06-15 12:37,Login,user2,Success,543,Invalid password
+2025-06-15 18:15,Login,user1,Success,972,Account locked
+2025-06-15 8:44,AccessRequest,user1,Failure,130,Access granted
+2025-06-15 18:27,FileUpload,admin,Success,177,File uploaded
+2025-06-15 16:51,AccessRequest,user1,Success,714,Access granted
+2025-06-15 13:22,Login,admin,Failure,536,Invalid password
+2025-06-15 12:25,Logout,admin,Success,540,User logged out
+2025-06-15 16:41,FileUpload,user2,Success,727,Upload failed
+2025-06-15 19:26,Logout,user2,Failure,155,User logged out
+2025-06-15 8:53,FileUpload,user3,Failure,986,File uploaded
+2025-06-15 14:40,Login,user3,Failure,69,User logged in
+2025-06-15 12:31,AccessRequest,user1,Success,921,Access denied
+2025-06-15 8:10,AccessRequest,user3,Failure,304,Access granted
+2025-06-15 13:17,Login,user3,Failure,337,Account locked
+2025-06-15 15:27,AccessRequest,user1,Success,799,Access denied
