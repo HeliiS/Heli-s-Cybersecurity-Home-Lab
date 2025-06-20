@@ -1,5 +1,5 @@
 // failed-logins.kql
 SecurityEvents
-| where EventID == 4625
-| summarize FailedLogins = count() by Account
+| where  Message = "Failed login attempt"
+| summarize FailedLogins = count() by user
 | sort by FailedLogins desc
