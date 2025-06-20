@@ -1,5 +1,5 @@
 // failed-logins.kql
-SecurityEvent
+SecurityEvents
 | where EventID == 4625
 | summarize FailedLogins = count() by Account
 | sort by FailedLogins desc
